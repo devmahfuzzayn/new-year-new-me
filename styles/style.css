@@ -69,9 +69,7 @@
 }
 
 .my-failures .picture img {
-    width: 100%;
-    min-width: 300px;
-    max-width: 400px;
+    max-width: 570px;
 }
 
 .my-failures .content {
@@ -119,7 +117,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 128px 60px 0 60px;
+    margin: 130px 60px 0 60px;
 }
 
 .my-plans .mp-title {
@@ -163,7 +161,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 130px 60px 0 60px;
+    margin: 140px 60px 0 60px;
 }
 
 .my-projects .mp-title {
@@ -234,13 +232,14 @@
     background-size: cover;
     border-radius: 10px;
     width: 100%;
-    max-width: 1140px;
+    max-width: 1000px;
     margin: 130px 60px 0 60px;
     padding: 60px 64px 60px 64px;
 }
 
 .gr-banner .gr-title {
     color: #fff;
+    max-width: 460px;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
