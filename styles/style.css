@@ -151,6 +151,72 @@
     margin: 20px 0 10px 0;
 }
 
+/* More Info Styles */
+.my-projects {
+    display: flex;
+    justify-content: center;
+}
+
+.my-projects .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 130px 60px 0 60px;
+}
+
+.my-projects .mp-title {
+    color: rgb(23, 22, 22);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.my-projects .container > div {
+    display: flex;
+    align-items: center;
+}
+
+.my-projects .container .content {
+    max-width: 400px;
+}
+
+.my-projects .container .content1 {
+    margin-right: 80px;
+}
+
+.my-projects .container .content2 {
+    margin-left: 80px;
+}
+
+.my-projects .container .content h3 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.my-projects .container .content p {
+    color: #909090;
+    line-height: 25px;
+    margin-bottom: 15px;
+    max-width: 574px;
+}
+
+.my-projects .container .content .mp-btn {
+    color: #fff;
+    background: #005FAC;
+    margin-top: 10px;
+}
+
+.my-projects .container .picture img {
+    border-radius: 4px;
+    height: 400px;
+    width: 380px;
+    object-fit: cover;
+}
+
 /* Gradient Banner Styles */
 .gr-banner {
     display: flex;
@@ -193,7 +259,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 24px;
+    gap: 60px;
     margin: 130px 60px 0 60px;
     padding: 130px 0;
 }
