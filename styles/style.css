@@ -7,7 +7,7 @@
 .primary-btn {
     background: #fff;
     color: #005FAC;
-    padding: 20px 25px;
+    padding: 16px 25px;
     border: none;
     border-radius: 5px;
     font-weight: 600;
@@ -23,7 +23,8 @@
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 808px;
+    height: 100vh;
+    /* height: 808px; */
 }
 
 .banner .container {
@@ -47,6 +48,228 @@
 .banner .banner-description {
     max-width: 600px;
     font-size: 16px;
+    line-height: 26px;
     color: #fff;
     margin-bottom: 32px;
+}
+
+/* My Failures Styles */
+.my-failures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-failures .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin: 135px 60px 0 60px;
+}
+
+.my-failures .picture img {
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.my-failures .content {
+    width: 400px;
+}
+
+.my-failures .content .mf-title {
+    color: rgb(23, 22, 22);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.my-failures .content .mf-description {
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.my-failures .mf-lists-container .mf-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    line-height: 30px;
+    list-style: none;
+}
+
+.my-failures .mf-lists-container .mf-list img {
+    padding-right: 12px;
+}
+
+/* My Plans Styles */
+.my-plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-plans .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 128px 60px 0 60px;
+}
+
+.my-plans .mp-title {
+    color: rgb(21, 20, 20);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 50px;
+}
+
+.my-plans .mp-items-container {
+    display: flex;
+    gap: 98px;
+}
+
+.my-plans .mp-items-container .mp-item {
+    text-align: center;
+}
+
+.my-plans .mp-items-container .mp-item img {
+    width: 86px;
+}
+
+.my-plans .mp-items-container .mp-item h3 {
+    color: rgb(21, 20, 20);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    margin: 20px 0 10px 0;
+}
+
+/* Gradient Banner Styles */
+.gr-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gr-banner .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: linear-gradient(to right, #005FAC, #005fac00), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 130px 60px 0 60px;
+    padding: 60px 64px 60px 64px;
+}
+
+.gr-banner .gr-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.gr-banner .gr-btn {
+    margin-top: 24px;
+}
+
+/* Footer Styles */
+.footer {
+    background: rgb(21, 20, 20);
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin: 130px 60px 0 60px;
+    padding: 130px 0;
+}
+
+.footer .ft-content {
+    width: 485px;
+}
+
+.footer .ft-content .ft-title {
+    color: rgb(248, 248, 248);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+
+.footer .ft-content .ft-description,
+.footer .ft-content .ft-email, 
+.footer .ft-content .ft-phone-number {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer .ft-content .ft-description {
+    margin-bottom: 24px;
+}
+
+.footer .ft-content .ft-email {
+    margin-bottom: 16px;
+}
+
+.footer .ft-content .ft-phone-number {
+    margin-bottom: 32px;
+}
+
+.footer .sm-icons-container {
+    display: flex;
+    gap: 18px; 
+}
+
+.footer .ft-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .ft-form .ft-form-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+.footer .ft-form .ft-form-email {
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 325px;
+    text-align: left;
+    padding: 22px;
+    margin-bottom: 16px;
+}
+
+.footer .ft-form .ft-form-email::placeholder {
+    color: #fff;
+}
+
+.footer .ft-form .ft-form-btn {
+    color: #fff;
+    font-size: 16px;
+    background: #005FAC;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 28px;
+    cursor: pointer;
 }
